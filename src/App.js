@@ -7,13 +7,20 @@ import Message from "./components/Message";
 import Counter from "./components/Counter";
 import FunctionClick from "./components/FunctionClick";
 import ClassClick from "./components/ClassClick";
-import EventBind from "./EventBind";
-import ParentComponent from "./ParentComponent";
+import EventBind from "./components/EventBind";
+import ParentComponent from "./components/ParentComponent";
+import UserGreeting from "./components/UserGreeting";
+import NameList from "./components/NameList";
+import StyleSheet from "./components/StyleSheet";
+import Inline from "./components/Inline";
+import "./components/appStyles.css";
+import styles from "./components/appStyles.module.css";
 
 function App() {
   return (
     <div className="App">
-      <ParentComponent />
+      <h1 className="error">Error</h1>
+      <h1 className={styles.success}>Success</h1>
       {/*<FunctionClick />
       <ClassClick />
       /*<Greet name="manik" heroName="batman">
