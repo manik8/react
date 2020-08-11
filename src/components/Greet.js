@@ -1,6 +1,7 @@
 import React from "react";
 
-const Greet = ({ name, heroName, children }) => {
+const Greet = (props) => {
+  const { name, heroName, children } = props;
   return (
     <h1>
       Hello! {name}, {heroName}
