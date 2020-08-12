@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
-import Form from "./components/Form";
-import LifeCycleA from "./components/LifeCycleA";
+import PureComp from "./components/PureComp";
+import ParentComp from "./components/ParentComp";
 
 function App() {
   return (
     <div className="App">
-      <LifeCycleA />
+      <ParentComp />
     </div>
   );
 }
