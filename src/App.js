@@ -1,12 +1,13 @@
 import React from "react";
 import "./App.css";
-import FocusInput from "./components/FocusInput";
-import FRParentInput from "./FRParentInput";
+import ClickCounter from "./components/ClickCounter";
+import HoverCounter from "./components/HoverCounter";
 
 function App() {
   return (
     <div className="App">
-      <FRParentInput />
+      <ClickCounter />
+      <HoverCounter />
     </div>
   );
 }
