@@ -1,13 +1,14 @@
 import React from "react";
 import "./App.css";
-import ClickCounter from "./components/ClickCounter";
-import HoverCounter from "./components/HoverCounter";
+import ComponentC from "./components/ComponentC";
+import { UserProvider } from "./components/userContext";
 
 function App() {
   return (
     <div className="App">
-      <ClickCounter />
-      <HoverCounter />
+      <UserProvider value="manik">
+        <ComponentC />
+      </UserProvider>
     </div>
   );
 }
