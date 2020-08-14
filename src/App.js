@@ -1,14 +1,11 @@
 import React from "react";
 import "./App.css";
-import ComponentC from "./components/ComponentC";
-import { UserProvider } from "./components/userContext";
+import HookCounter2 from "./components/HookCounter2";
 
 function App() {
   return (
     <div className="App">
-      <UserProvider value="manik">
-        <ComponentC />
-      </UserProvider>
+      <HookCounter2 />
     </div>
   );
 }
