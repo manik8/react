@@ -13,8 +13,7 @@ export default class ParentProp extends Component {
   render() {
     return (
       <div>
-        {this.state.count}
-        <ChildProps triggerCount={this.handleCount} />
+        <ChildProps triggerCount={this.handleCount} count={this.state.count} />
       </div>
     );
   }
