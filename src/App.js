@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import HookCounter2 from "./components/HookCounter2";
+import ParentProp from "./components/ParentProp";
 
 function App() {
   return (
     <div className="App">
-      <HookCounter2 />
+      <ParentProp />
     </div>
   );
 }
